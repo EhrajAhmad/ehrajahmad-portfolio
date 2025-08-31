@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio//Ehraj Ahmad </title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+
+    <!-- CSS for website -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Own JS file -->
+    <script src="assets/js/my.js"></script>
+
+    <!-- used for typing automatically  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- BootStrap css CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+        <style>
+            nav img{
+               
+                height: 50px;
+                width: 50px;
+            }
+        </style>
+
+</head>
+
+<body oncontextmenu="return false">
+
+
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo"><img src="assets/img/Mylogo2.jpg" alt=""></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="l-main">
+        <!--======================================================== HOME===================================== =====-->
+        <section class="home bd-grid" id="home">
+
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hi there,<br>I'am <span class="home__title-color">Ehraj Ahmad</span></h1>
+                <h1>I Am into <br> <span style="color: chocolate;" class="auto-type"></span></h1>
+
+                <script>
+                    var typed = new Typed(".auto-type", {
+                        strings: ['UI & UX Designer.', 'Java developer.', 'Web develoment.', 'Frontend Developer.'],
+                        typeSpeed: 50,
+                        backSpeed: 50,
+                        backDelay: 1000,
+                        loop: true
+                    });
+                </script>
+
+
+
+                <div>
+                    <a style="display: flex; align-items: center;" href="#contact" class="button">Contact <i
+                            class='bx bx-chevrons-down'></i></a>
+                </div>
+            </div>
+
+            <div class="home__social">
+
+                <a target="_blank" href="https://www.linkedin.com/in/ehraj-ahmad-183a96283"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a target="_blank" href="https://www.hackerrank.com/profile/ehrajahmad35" class="home__social-icon"><i
+                        class='bx bx-code-alt'></i></a>
+                <a target="_blank" href="https://github.com/EhrajAhmad" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a target="_blank" href="https://leetcode.com/u/Ehraj_Ahmad/" class="home__social-icon"><i
+                        class='bx bx-code-block'></i><span></span></a>
+                <!-- <a href="" class="home__social-icon"><i class='bx bxl-instagram'></i></a> -->
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/Ehraj2.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+
+
+        <!--============================================ ABOUT =============================================-->
+        <section class="about section " id="about">
+
+            <h2 class="section-title"><i class='bx bxs-user-detail'></i> About <span> Me.</span></h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/About2.JPG" alt="">
+                </div>
+
+
+
+                <div id="about">
+                    <h1 class="about__subtitle">I'am Ehraj</h1>
+                    <h5 style="opacity: .7;" data-aos="zoom-in-up">Full stack Developer</h5>
+
+                    <p class="about__text">
+                        I am a Full-Stack developer based in Bhopal, India.
+                        Passionate about innovation, I have achieved 5 star at hackerRank in Java, data structures &
+                        algorithms, DBMS, and frontend technologies, I
+                        am actively exploring advance Java. As a Full Stack Web Developer and java Developer
+                        I refine my skills while contributing to projects.
+                        Working for myself to improve my skills. Love to build Full-Stack Developer.</p>
+
+                    <div data-aos="fade-left">
+                        <a href="">Email : <span>ehrajahmad35@gmail.com</span></a><br>
+                        <a href="">Place : <span>Bhopal, India - 462022</span></a><br>
+                    </div>
+                    <div id="resume__buttom" data-aos="zoom-in-up">
+                        <a target="_blank" style="display: flex; align-items: center;" class="button"
+                            href="assets/pdf/EHRAJ AHMAD1.0 RESUME.pdf"> Resume <i class='bx bx-skip-next'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================================== SKILLS ===========================================-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title"><i class='bx bx-code-block'></i> Skills & <span>Abilities</span></h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Its all about my skills, Frontend as UI and UX designing and Backend as Java
+                        Developer Thats make me a full stack developer, In the java developer i prefer to use jsp at the
+                        place of html.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">BOOTSTRAP</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <!--  Right side skills as the backend java Program -->
+                <div>
+                    <!-- <img src="assets/img/work3.jpg" alt="" class="skills__img">   -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <span class="skills__name">JSP</span>
+                        </div>
+                        <div class="skills__bar skills__JSP">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">83%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <span class="skills__name">SERVLET</span>
+                        </div>
+                        <div class="skills__bar skills__SERVLET">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <span class="skills__name">MYSQL</span>
+                        </div>
+                        <div class="skills__bar skills__JSP">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">83%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+
+                            <span class="skills__name">GITHUB</span>
+                        </div>
+                        <div class="skills__bar skills__SERVLET">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="container bg-primary">
+                <div class="row">
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/html.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/cascading.png" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/javascript.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/bootstrap.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/Java-Logo.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/jsp.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/servlet.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/mysql.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2">
+                        <div class="card-body">
+                            <img class="img-fluid " src="assets/img/github-logo.png" alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =============================== Project =================================== -->
+
+        <div id="work">
+            <div class="container">
+                <h1 class="section-title"><i class='bx bx-code-block'></i> Projects <span>Made.</span></h1>
+                <div class="work-list">
+                    <div class="work" data-aos="zoom-in-up">
+                        <img src="assets/img/Project1.0.png" alt="PhoneBook Management">
+                        <div class="layer">
+                            <h3>PhoneBook Management</h3>
+                            <p>Its all about saving or deleting the contact or crud Application using Java</p>
+                            <a href=""><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work" data-aos="zoom-in-up">
+                        <img src="assets/img/Project2.png" alt="Tech Blog">
+                        <div class="layer">
+                            <h3>Tech Blog</h3>
+                            <p>Its all about technical information using Java Program</p>
+                            <a href=""><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work" data-aos="zoom-in-up">
+                        <img src="assets/img/project3.0.png" alt="">
+                        <div class="layer">
+                            <h3>Bharat Plantation</h3>
+                            <p>Planting the tree all over the BHARAT. Connected to Each Other</p>
+                            <a href=""><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="button see_more_btn">See More...</a>
+            </div>
+        </div>
+
+        <!--=================================== WORK ===============================-->
+        <section class="work_section" id="work">
+            <h2 class="section-title"><i class='bx bxs-spreadsheet'></i> Work & <span>Projects.</span></h2>
+
+            <p>For getting all the <span> <b>website</b> </span> click to the Image</p>
+            <div class="work__container bd-grid">
+                <a href="https://github.com/EhrajAhmad.io/Qr-generator/" class="work__img" target="_blank">
+                    <img src="assets/img/work1.png" alt="">
+                </a>
+              
+               
+                <a href="https://github.com/EhrajAhmad.io/Solar-System/" class="work__img" target="_blank">
+                    <img src="assets/img/work2.png" alt="">
+                </a>
+                <a href="https://github.com/EhrajAhmad.io/Quiz_test/" class="work__img" target="_blank">
+                    <img src="assets/img/work3.png" alt="">
+                </a>
+
+                <a href="https://github.com/EhrajAhmad.io/Birthday-Event/" class="work__img" target="_blank">
+                    <img src="assets/img/birthday1.0.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work6.jpg" alt="">
+                </a>
+                <a href="https://github.com/EhrajAhmad.io/Backgound-Changer/" class="work__img" target="_blank">
+                    <img src="assets/img/work4.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== ========================================CONTACT============================ =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title"><i class='bx bx-support'></i> Contact Me. <span>Get in Touch</span></h2>
+
+
+            <div class="contact__container bd-grid bg-light" style="display: flex; justify-content: space-evenly;">
+                <div class="about__img">
+                    <img src="assets/img/client_chat-removebg-preview.png" alt="">
+                </div>
+
+                <div id="about">
+
+                    <form action="" method="" class="contact__form">
+
+                        <!-- for messege input web3forms website se -->
+
+                        <!-- <input type="hidden" name="access_key" value="a346afc7-5c5c-4225-9f65-d4cb57f03726">   -->
+                         
+                        <!-- ae wala is real mail access key  -->
+                         <!-- Original personal wala mail hai -->
+                        <input type="hidden" name="access_key" value="">
+
+                        <input type="text" placeholder="Name" class="contact__input" name="name">
+                        <input type="mail" placeholder="Email" class="contact__input" name="email">
+                        <textarea id="" cols="0" rows="10" class="contact__input" name="message"
+                            placeholder="Type Message..."></textarea>
+
+
+                        <!-- <input type="button" value="Send Message >>" class="contact_button sub_button"> -->
+
+                        <button class="sub_button submit" type="submit">
+                            <div class="outline"></div>
+                            <div class="state state--default">
+                                <div class="icon">
+                                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g style="filter: url(#shadow)">
+                                            <path
+                                                d="M14.2199 21.63C13.0399 21.63 11.3699 20.8 10.0499 16.83L9.32988 14.67L7.16988 13.95C3.20988 12.63 2.37988 10.96 2.37988 9.78001C2.37988 8.61001 3.20988 6.93001 7.16988 5.60001L15.6599 2.77001C17.7799 2.06001 19.5499 2.27001 20.6399 3.35001C21.7299 4.43001 21.9399 6.21001 21.2299 8.33001L18.3999 16.82C17.0699 20.8 15.3999 21.63 14.2199 21.63ZM7.63988 7.03001C4.85988 7.96001 3.86988 9.06001 3.86988 9.78001C3.86988 10.5 4.85988 11.6 7.63988 12.52L10.1599 13.36C10.3799 13.43 10.5599 13.61 10.6299 13.83L11.4699 16.35C12.3899 19.13 13.4999 20.12 14.2199 20.12C14.9399 20.12 16.0399 19.13 16.9699 16.35L19.7999 7.86001C20.3099 6.32001 20.2199 5.06001 19.5699 4.41001C18.9199 3.76001 17.6599 3.68001 16.1299 4.19001L7.63988 7.03001Z"
+                                                fill="currentColor"></path>
+                                            <path
+                                                d="M10.11 14.4C9.92005 14.4 9.73005 14.33 9.58005 14.18C9.29005 13.89 9.29005 13.41 9.58005 13.12L13.16 9.53C13.45 9.24 13.93 9.24 14.22 9.53C14.51 9.82 14.51 10.3 14.22 10.59L10.64 14.18C10.5 14.33 10.3 14.4 10.11 14.4Z"
+                                                fill="currentColor"></path>
+                                        </g>
+                                        <defs>
+                                            <filter id="shadow">
+                                                <fedropshadow dx="0" dy="1" stdDeviation="0.6" flood-opacity="0.5">
+                                                </fedropshadow>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p>
+                                        <span style="--i:0">S</span>
+                                        <span style="--i:1">e</span>
+                                        <span style="--i:2">n</span>
+                                        <span style="--i:3">d</span>
+                                        <span style="--i:4">M</span>
+                                        <span style="--i:5">e</span>
+                                        <span style="--i:6">s</span>
+                                        <span style="--i:7">s</span>
+                                        <span style="--i:8">a</span>
+                                        <span style="--i:9">g</span>
+                                        <span style="--i:10">e</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="state state--sent">
+                                <div class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em"
+                                        width="1em" stroke-width="0.5px" stroke="black">
+                                        <g style="filter: url(#shadow)">
+                                            <path fill="currentColor"
+                                                d="M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z">
+                                            </path>
+                                            <path fill="currentColor"
+                                                d="M10.5795 15.5801C10.3795 15.5801 10.1895 15.5001 10.0495 15.3601L7.21945 12.5301C6.92945 12.2401 6.92945 11.7601 7.21945 11.4701C7.50945 11.1801 7.98945 11.1801 8.27945 11.4701L10.5795 13.7701L15.7195 8.6301C16.0095 8.3401 16.4895 8.3401 16.7795 8.6301C17.0695 8.9201 17.0695 9.4001 16.7795 9.6901L11.1095 15.3601C10.9695 15.5001 10.7795 15.5801 10.5795 15.5801Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <p>
+                                    <span style="--i:5">S</span>
+                                    <span style="--i:6">e</span>
+                                    <span style="--i:7">n</span>
+                                    <span style="--i:8">t</span>
+                                </p>
+                            </div>
+                        </button>
+
+
+                    </form>
+
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <!--============================================= FOOTER ====================================================-->
+    <footer class="footer">
+        <p class="footer__title">Ehraj's Portfolio</p>
+        <div class="footer__social">
+            <a target="_blank" href="https://www.facebook.com/ehraj.ehraj.7" class="footer__icon"><i
+                    class='bx bxl-facebook'></i></a>
+            <a target="_blank" href="https://www.instagram.com/mr_ehraj_s11/" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a target="_blank" href="https://x.com/EhrajMr" class="footer__icon"><i 
+                    class='bx bxl-twitter'></i></a>
+            <a target="_blank" href="https://wa.me/7463958782" class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <div class="line"></div>
+        <p class="footer__copy">&#169; Designed With ❤️ <span>Ehraj Ahmad</span></p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            delay: 50
+        });
+    </script>
+
+    <!-- BootStrap JavaScript CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
